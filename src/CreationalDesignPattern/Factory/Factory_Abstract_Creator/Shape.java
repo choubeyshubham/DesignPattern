@@ -1,4 +1,4 @@
-package CreationalDesignPattern.Factory.Factory_AbstractCreator;
+package CreationalDesignPattern.Factory.Factory_Abstract_Creator;
 
 interface Shape {
     void draw();
@@ -26,4 +26,3 @@ class Circle implements Shape {
         System.out.println("Inside Circle::draw() method.");
     }
 }
-

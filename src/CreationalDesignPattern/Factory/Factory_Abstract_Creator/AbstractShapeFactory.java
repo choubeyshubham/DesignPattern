@@ -11,25 +11,20 @@ public abstract class AbstractShapeFactory {
     // other helper methods
 }
 
-class RectangleFactory extends AbstractShapeFactory
-{
-    protected Shape factoryMethod()
-    {
+class RectangleFactory extends AbstractShapeFactory {
+    protected Shape factoryMethod() {
         return new Rectangle();
     }
 }
-class SquareFactory extends AbstractShapeFactory
-{
-    protected Shape factoryMethod()
-    {
+
+class SquareFactory extends AbstractShapeFactory {
+    protected Shape factoryMethod() {
         return new Square();
     }
 }
 
-class CircleFactory extends AbstractShapeFactory
-{
-    protected Shape factoryMethod()
-    {
+class CircleFactory extends AbstractShapeFactory {
+    protected Shape factoryMethod() {
         return new Circle();
     }
 }

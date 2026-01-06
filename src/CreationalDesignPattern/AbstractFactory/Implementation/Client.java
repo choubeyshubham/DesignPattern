@@ -1,4 +1,4 @@
-package CreationalDesignPattern.AbstractFactory.Challange;
+package CreationalDesignPattern.AbstractFactory.Implementation;
 
 public class Client {
     public static void main(String [] args)

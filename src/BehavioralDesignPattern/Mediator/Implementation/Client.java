@@ -15,7 +15,10 @@ public class Client {
         mediator.addUser(user3);
         mediator.addUser(user4);
 
-        user1.send("Hi All");
+        user1.send("Hi I am Jason");
+        user2.send("Hi I am Jennifer");
+        user3.send("Hi I am Lucy");
+        user4.send("Hi I am Ian");
 
     }
 }
